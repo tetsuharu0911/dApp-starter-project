@@ -161,7 +161,7 @@ const App = () => {
         /* コントラクトの残高が減っていることを確認 */
         if (constractBalance_post.lt(contractBalance)) {
           /* 減っていたら下記を出力 */
-          console.log("User won ETH!");
+          console.log("User won ETH!!!!");
         } else {
           console.log("User didn't win ETH.");
         }
