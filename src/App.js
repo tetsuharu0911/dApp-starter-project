@@ -165,7 +165,7 @@ const App = () => {
         } else {
           console.log("User didn't win ETH.");
         }
-        console.log("Contract balance after wave:", ethers.utinls.formatEther(contractBalance_post));
+        console.log("Contract balance after wave:", ethers.utinls.formatEther(contractBalance));
       } else {
         console.log("Ethereum object doesn't exist!");
       }
